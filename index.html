@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aziza Bibi Trust — carrying kindness forward through water, education and community care.">
+  <title>Aziza Bibi Trust | Kindness That Continues</title>
+  <style>
+    :root {
+      --green: #234b3b;
+      --green-soft: #eaf1eb;
+      --gold: #c49a55;
+      --ink: #26342d;
+      --muted: #66736b;
+      --paper: #fbfaf6;
+      --white: #fff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; color: var(--ink); background: var(--paper);
+      font-family: Georgia, "Times New Roman", serif; line-height: 1.65;
+    }
+    .nav {
+      display: flex; justify-content: space-between; align-items: center;
+      max-width: 1080px; margin: auto; padding: 20px 24px;
+      font-family: Arial, sans-serif;
+    }
+    .brand { color: var(--green); font-weight: 700; letter-spacing: .04em; }
+    .nav a { color: var(--green); text-decoration: none; margin-left: 22px; font-size: .9rem; }
+    .hero {
+      background: linear-gradient(120deg, #234b3b 0%, #315d49 100%);
+      color: white; padding: 92px 24px 100px; text-align: center;
+    }
+    .eyebrow { color: #e8c98f; text-transform: uppercase; letter-spacing: .19em; font: 700 .72rem Arial, sans-serif; }
+    h1 { font-size: clamp(2.5rem, 7vw, 4.7rem); line-height: 1.08; margin: 18px auto; max-width: 780px; font-weight: 500; }
+    .hero p { max-width: 620px; margin: 18px auto 0; color: #e6eee8; font-size: 1.12rem; }
+    .button {
+      display: inline-block; margin-top: 30px; padding: 12px 23px;
+      background: var(--gold); color: #1f3429; text-decoration: none;
+      border-radius: 3px; font: 700 .88rem Arial, sans-serif;
+    }
+    main { max-width: 1000px; margin: auto; padding: 0 24px; }
+    section { padding: 72px 0; }
+    .section-label { color: #a17a3d; text-transform: uppercase; letter-spacing: .16em; font: 700 .72rem Arial, sans-serif; }
+    h2 { color: var(--green); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 500; line-height: 1.2; margin: 12px 0 18px; }
+    .intro { max-width: 700px; color: var(--muted); font-size: 1.08rem; }
+    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 30px; }
+    .card { background: var(--white); border: 1px solid #e8e6dc; padding: 26px; border-radius: 7px; }
+    .card .number { color: var(--gold); font: 700 .8rem Arial, sans-serif; letter-spacing: .12em; }
+    .card h3 { color: var(--green); font-size: 1.35rem; margin: 12px 0 8px; }
+    .card p { color: var(--muted); margin: 0; font-size: .97rem; }
+    .quote {
+      background: var(--green-soft); border-left: 4px solid var(--gold);
+      padding: 30px 34px; margin: 12px 0; color: var(--green); font-size: 1.35rem;
+    }
+    .contact { background: #f1eee5; border-radius: 8px; padding: 36px; }
+    .contact p { color: var(--muted); max-width: 650px; }
+    footer { background: #1c3d30; color: #dce7df; text-align: center; padding: 25px 20px; font: .82rem Arial, sans-serif; }
+    footer span { color: #e8c98f; }
+    @media (max-width: 700px) {
+      .nav { align-items: flex-start; gap: 12px; flex-direction: column; }
+      .nav a { margin: 0 16px 0 0; }
+      .hero { padding: 72px 22px 78px; }
+      .cards { grid-template-columns: 1fr; }
+      section { padding: 54px 0; }
+      .contact { padding: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="brand">AZIZA BIBI TRUST</div>
+    <div><a href="#about">Our story</a><a href="#work">Our work</a><a href="#contact">Contact</a></div>
+  </nav>
+
+  <header class="hero">
+    <div class="eyebrow">In loving memory • In service of others</div>
+    <h1>Kindness that<br>continues.</h1>
+    <p>Honouring Aziza Bibi through acts of care that bring hope, dignity and opportunity to our communities.</p>
+    <a class="button" href="#work">Explore our work</a>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="section-label">Our purpose</div>
+      <h2>A legacy remembered through good deeds.</h2>
+      <p class="intro">Aziza Bibi Trust is inspired by the belief that even a small act of kindness can make a lasting difference. We aim to turn remembrance into meaningful service — supporting people with compassion, sincerity and respect.</p>
+      <div class="quote">“The most meaningful legacy is the good we leave behind in the lives of others.”</div>
+    </section>
+
+    <section id="work">
+      <div class="section-label">Our focus</div>
+      <h2>Simple work. Lasting impact.</h2>
+      <p class="intro">Our efforts are centred on practical needs that strengthen communities and help people move forward.</p>
+      <div class="cards">
+        <article class="card">
+          <div class="number">01 / WATER</div>
+          <h3>Clean water</h3>
+          <p>Supporting access to safe drinking water through community water and filtration projects.</p>
+        </article>
+        <article class="card">
+          <div class="number">02 / EDUCATION</div>
+          <h3>Learning with dignity</h3>
+          <p>Encouraging education and supporting learning environments, especially where help is needed most.</p>
+        </article>
+        <article class="card">
+          <div class="number">03 / COMMUNITY</div>
+          <h3>Care in action</h3>
+          <p>Helping families through essential support and seasonal food assistance, with care and respect.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact">
+        <div class="section-label">Be part of the good</div>
+        <h2>Every sincere contribution matters.</h2>
+        <p>Whether through time, resources or sharing our mission, you can help kindness reach further. For current projects, contribution details or collaboration, please contact the trust directly.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>Made with care for <span>Aziza Bibi Trust</span> · Water · Education · Community</footer>
+</body>
+</html>
